@@ -1,0 +1,120 @@
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+}
+
+img.logo{
+    object-fit: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
+
+figcaption{
+    padding-left: 10px;
+   
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    background-color: black;
+    
+
+ 
+}
+
+.links li{
+    padding: 5px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-image: url("./resources/media/img-mission-background.jpg");
+    height: 700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+div.header-text{
+    background-color: black;
+    width: 1200px;
+    align-self: center;
+
+}
+main.menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+.menu img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    border-bottom: 10px;
+}
+
+
+body{
+    text-align: center;
+}
+
+main.location{
+    background-image: url("./resources/media/img-locations-background.jpg");
+   
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-bottom: 300px;
+}
+
+div.locations{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;   
+    gap: 40px
+}
+
+div.downtown, div.bayside, div.oakdale{
+    flex-shrink: 2;
+}
+
+
+.locations div{
+    text-align: center;
+    width: 300px;
+    background-color: black;
+}
+
+section.contact{
+    height: 200px;
+}
+
+footer{
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+
+
+
